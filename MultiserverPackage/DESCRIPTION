@@ -1,14 +1,13 @@
 Package: MultiServerPackage
 Type: Package
-Title: Simulate a Multiserver Queue System
+Title: Multi-server Queue Simulation
 Version: 0.1.0
 Author: Wynston Toby Pranoto
 Maintainer: Wynston Toby Pranoto <wynstontoby.pranoto@students.mq.edu.au>
-Description: A package to simulate customer service in a first-come, first-served queuing system with multiserver capability.
-Depends: 
-    R (>= 3.5.0)
-Imports: 
-    tibble
+Description: A package for simulating a multi-server queue system.
 License: MIT
+Encoding: UTF-8
 RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
 LazyData: true
