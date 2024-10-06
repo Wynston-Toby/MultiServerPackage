@@ -31,7 +31,7 @@ Testing
 The package has been tested using the following commands:
 
 Installation:
-devtools::install_github("https://github.com/MQ-STAT1378-Assignment2-2024/stat1378-assignment2-Wynston-Toby.git")
+devtools::install_github("Wynston-Toby/MultiServerPackage/MultiserverPackage")
 
 Load the package:
 library(MultiServerPackage)
