@@ -21,4 +21,4 @@ test_that("Multiserver works with multiple servers", {
 })
 
 
-devtools::test()
+

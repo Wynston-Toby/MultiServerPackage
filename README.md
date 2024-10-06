@@ -1,1 +1,10 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/CKOG3rq6)
+# Multiserver Simulation Package
+
+This package simulates a multiserver queuing system, allowing users to analyze customer arrival and service processes in first-come, first-serve systems.
+
+## Installation
+
+You can install the package from GitHub:
+
+```r
+devtools::install_github("https://github.com/MQ-STAT1378-Assignment2-2024/stat1378-assignment2-Wynston-Toby.git")
