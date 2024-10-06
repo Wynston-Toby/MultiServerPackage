@@ -7,7 +7,8 @@ library(usethis)
 library(devtools)
 library(roxygen2)
 
-devtools::install_github("C:/Users/Wynston/Documents/stat1378-assignment2-Wynston-Toby/MultiserverPackage")
+devtools::install_github("Wynston-Toby/MultiServerPackage")
+
 
 
 # Load your package
