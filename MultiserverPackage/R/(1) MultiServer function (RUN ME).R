@@ -1,4 +1,23 @@
+#' Multiserver Queue Simulation
+#'
+#' This function simulates a multiserver queuing system for customers arriving
+#' at random intervals with varying service times.
+#'
+#' @param Arrivals A numeric vector indicating the arrival times of customers in seconds.
+#' @param ServiceTimes A numeric vector indicating the service times for each customer in seconds.
+#' @param NumServers An integer indicating the number of servers (default is 1).
+#'
+#' @return A tibble containing the arrival times, service begin times,
+#'         chosen server, and service end times for each customer.
+#' @examples
+#' set.seed(123)
+#' arrival_time <- cumsum(rexp(10, 1/60))
+#' service_time <- rexp(10, 1/150) + 20
+#' result <- Multiserver(arrival_time, service_time, NumServers = 2)
+#' print(result)
+#' @export
 library(tibble)
+
 
 # This output is updated to tibble() not data.frame()
 Multiserver <- function(Arrivals, ServiceTimes, NumServers = 1) {

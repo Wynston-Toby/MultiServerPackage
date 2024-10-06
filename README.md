@@ -1,10 +1,12 @@
-# Multiserver Simulation Package
+# Bank Queue Simulation
 
-This package simulates a multiserver queuing system, allowing users to analyze customer arrival and service processes in first-come, first-serve systems.
+This package simulates a first-come, first-served queuing system using the `bank.csv` dataset. 
+It includes functionality for simulating customer service times and arrival times.
 
 ## Installation
 
-You can install the package from GitHub:
+You can install the package locally by running:
+
 
 ```r
 devtools::install_github("https://github.com/MQ-STAT1378-Assignment2-2024/stat1378-assignment2-Wynston-Toby.git")

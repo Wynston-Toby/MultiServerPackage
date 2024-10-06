@@ -19,6 +19,3 @@ test_that("Multiserver works with multiple servers", {
   expect_equal(ncol(result), 4)  # Check if the result has 4 columns
   expect_true(all(result$ChosenServer <= 3))  # Check if no server index exceeds the number of servers
 })
-
-
-
