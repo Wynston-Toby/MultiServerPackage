@@ -36,7 +36,4 @@ devtools::install_github("Wynston-Toby/MultiServerPackage/MultiserverPackage")
 Load the package:
 library(MultiServerPackage)
 
-Run an example:
-result <- Multiserver(c(1, 2, 3), c(4, 5, 6), NumServers = 2)
-print(result)
 
